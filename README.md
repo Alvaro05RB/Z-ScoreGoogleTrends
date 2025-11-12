@@ -2,6 +2,7 @@
 This is a **standalone Java tool** that processes **Google Trends CSV exports** to compute a **Z-Score** of the latest month's search interest compared to historical data.  
 It reads multiple CSV files, aggregates values by month, and outputs the result via a GUI popup.  
 Designed for **statistical analysis of time-series interest data**, with clean parsing, validation, and extensible structure.
+Google Trends lacks a public API and native multi-file aggregation, so this tool parses manual CSV exports to compute Z-Scores across historical data.
 
 ## Features
 
